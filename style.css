@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+.jsgame__layout {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2px 2px;
+  color: #ea168e;
+  border: 1px black solid;
+}
+
 * {
   padding: 0;
   margin: 0;
