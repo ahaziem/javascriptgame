@@ -1,7 +1,9 @@
 @use "./variable" as *;
 
 .jsgame__layout {
+  font-size: 3rem;
   display: grid;
+  align-items: center;
   grid-auto-columns: 1fr;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -10,7 +12,8 @@
   border: 1px black solid;
   grid-template-areas:
     "topsquareleft topsquaremiddle topsquareright"
-    "";
+    "middlesquareleft middlesquaremiddle middlesquareright"
+    "bottomsquareleft bottomsquaremiddle bottomsquareright";
 }
 
 .topsquareleft {
@@ -26,13 +29,13 @@
   grid-area: middlesquareleft;
 }
 .middlesquaremiddle {
-    grid-area: middlesquaremiddle;
+  grid-area: middlesquaremiddle;
 }
 .middlesquareright {
-    grid-area: middlessquareright;
+  grid-area: middlessquareright;
 }
 .bottomsquareleft {
-    grid-area: bottomsquareleft;
+  grid-area: bottomsquareleft;
 }
 .bottomsquaremiddle {
   grid-area: bottomsquaremiddle;
