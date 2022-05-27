@@ -7,6 +7,43 @@
   gap: 2px 2px;
   color: #ea168e;
   border: 1px black solid;
+  grid-template-areas: "topsquareleft topsquaremiddle topsquareright" "";
+}
+
+.topsquareleft {
+  grid-area: topsquareleft;
+}
+
+.topsquaremiddle {
+  grid-area: topsquaremiddle;
+}
+
+.topsquareright {
+  grid-area: topsquareright;
+}
+
+.middlesquareleft {
+  grid-area: middlesquareleft;
+}
+
+.middlesquaremiddle {
+  grid-area: middlesquaremiddle;
+}
+
+.middlesquareright {
+  grid-area: middlessquareright;
+}
+
+.bottomsquareleft {
+  grid-area: bottomsquareleft;
+}
+
+.bottomsquaremiddle {
+  grid-area: bottomsquaremiddle;
+}
+
+.bottomsquareright {
+  grid-area: bottomsquareright;
 }
 
 * {
