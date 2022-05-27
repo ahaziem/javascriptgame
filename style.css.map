@@ -1,1 +1,1 @@
-{"version":3,"sources":["styles/_variable.scss"],"names":[],"mappings":"AAAQ,uFAAA","file":"style.css"}
+{"version":3,"sources":["styles/_variable.scss","styles/_gameheader.scss","style.css"],"names":[],"mappings":"AAAQ,uFAAA;ACER;EACE,UAAA;EACA,SAAA;EACA,sBAAA;EACA,yBDJiB;ECKjB,oCDNY;AEMd;;ADGA;EACE,iBAAA;EACA,eAAA;EACA,YDVW;AEUb","file":"style.css"}
