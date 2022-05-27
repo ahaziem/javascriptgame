@@ -16,40 +16,35 @@
     "bottomsquareleft bottomsquaremiddle bottomsquareright";
 }
 
+p {
+  border: 1px black solid;
+}
+
 .topsquareleft {
   grid-area: topsquareleft;
-  border: 1px black solid;
 }
 .topsquaremiddle {
   grid-area: topsquaremiddle;
-  border: 1px black solid;
 }
 .topsquareright {
   grid-area: topsquareright;
-  border: 1px black solid;
 }
 .middlesquareleft {
   grid-area: middlesquareleft;
-  border: 1px black solid;
 }
 .middlesquaremiddle {
   grid-area: middlesquaremiddle;
-  border: 1px black solid;
 }
 .middlesquareright {
   grid-area: middlessquareright;
-  border: 1px black solid;
 }
 .bottomsquareleft {
   grid-area: bottomsquareleft;
-  border: 1px black solid;
 }
 .bottomsquaremiddle {
   grid-area: bottomsquaremiddle;
-  border: 1px black solid;
 }
 
 .bottomsquareright {
   grid-area: bottomsquareright;
-  border: 1px black solid;
 }
