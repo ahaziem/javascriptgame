@@ -9,6 +9,15 @@
 
 .jsgame__header {
   font-weight: bold;
+  font-size: 2.5rem;
+  color: black;
+}
+
+.jsgame__competitor {
+  font-weight: bold;
   font-size: 2rem;
   color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

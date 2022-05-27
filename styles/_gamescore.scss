@@ -1,1 +1,10 @@
 @use "./variable" as *;
+
+.jsgame__competitor {
+  font-weight: bold;
+  font-size: 2rem;
+  color: $line-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
