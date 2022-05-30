@@ -16,12 +16,20 @@ gameSquares.forEach((square) => {
   square.addEventListener("click", buttonClick);
 });
 
+// getting the id from the HTML
+
+const goingOverId = () => {
+  for (let i = 0; i < gameSquares.length; i++) {
+    console.log(this.id);
+  }
+};
+
 // create a variable for the winning combination for the game
 const winningScore = [(1, 5, 9)][(3, 5, 7)][(1, 2, 3)][(4, 5, 6)][(7, 8, 9)][
   (1, 4, 7)
 ][(2, 5, 8)][(3, 6, 9)];
 
-// craete a function to see if the player has won the game.
+// create a function to see if the player has won the game.
 
 const winningPlayer = (player) => {
   if (player === winningScore) {
