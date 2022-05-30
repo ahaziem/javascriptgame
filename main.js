@@ -12,7 +12,8 @@ const buttonClick = (event) => {
     player = "o";
   } else {
     event.target.innerHTML = "o";
-    playerOArr.push(event.target.id)
+    playerOArr.push(event.target.id);
+    console.log(playerXArr);
     player = "x";
   }
 };
@@ -31,16 +32,16 @@ gameSquares.forEach((square) => {
 console.log(idArr);
 
 // create a variable for the winning combination for the game
-const winningScore = [
-  [1, 5, 9],
-  [3, 5, 7],
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
-  [1, 4, 7],
-  [2, 5, 8],
-  [3, 6, 9],
-];
+// const winningScore = [
+//   ["1", "5", "9"],
+//   ["3", "5", "7"],
+//   ["1", "2", "3"],
+//   ["4", "5", "6"],
+//   ["7", "8", "9"],
+//   ["1", "4", "7"],
+//   ["2", "5", "8"],
+//   ["3", "6", "9"],
+// ];
 
 // create a function to see if the player has won the game.
 
