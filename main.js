@@ -1,7 +1,7 @@
-const click = document.querySelector(".jsgame");
+const gameSquares = document.querySelectorAll(".jsgame__layout");
 
 const buttonClick = (event) => {
-  console.log(e.target);
+  console.log((event.target.innerHTML = "x"));
 };
 
 click.addEventListener("click", buttonClick);

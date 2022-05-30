@@ -1,18 +1,26 @@
 @use "./variable" as *;
 
-.jsgame__layout {
+.jsgame__design {
   font-size: 3rem;
   display: grid;
   align-items: center;
   grid-auto-columns: 1fr;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  border: 6px solid red;
   color: $noughts-color;
   grid-template-areas:
     "topsquareleft topsquaremiddle topsquareright"
     "middlesquareleft middlesquaremiddle middlesquareright"
     "bottomsquareleft bottomsquaremiddle bottomsquareright";
+}
+
+.jsgame__layout {
+  border: 1.5px solid black;
+  min-width: 150px;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .topsquareleft {
