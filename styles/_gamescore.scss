@@ -5,6 +5,7 @@
   font-size: 2rem;
   color: $line-color;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }

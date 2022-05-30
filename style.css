@@ -6,14 +6,9 @@
   grid-auto-columns: 1fr;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 2px 2px;
+  border: 6px solid red;
   color: #ea168e;
-  border: 1px black solid;
   grid-template-areas: "topsquareleft topsquaremiddle topsquareright" "middlesquareleft middlesquaremiddle middlesquareright" "bottomsquareleft bottomsquaremiddle bottomsquareright";
-}
-
-p {
-  border: 5px black solid;
 }
 
 .topsquareleft {
@@ -71,6 +66,7 @@ p {
   font-size: 2rem;
   color: black;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }/*# sourceMappingURL=style.css.map */

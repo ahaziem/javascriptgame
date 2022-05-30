@@ -7,17 +7,12 @@
   grid-auto-columns: 1fr;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 2px 2px;
+  border: 6px solid red;
   color: $noughts-color;
-  border: 1px black solid;
   grid-template-areas:
     "topsquareleft topsquaremiddle topsquareright"
     "middlesquareleft middlesquaremiddle middlesquareright"
     "bottomsquareleft bottomsquaremiddle bottomsquareright";
-}
-
-p {
-  border: 5px black solid;
 }
 
 .topsquareleft {
